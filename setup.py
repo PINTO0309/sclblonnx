@@ -22,14 +22,14 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=[
-        'numpy',
-        'onnxruntime',
-        'onnx==1.8.1',
-        'requests',
-        'onnxoptimizer',
-        'onnx-simplifier',
-        'packaging'
-      ],
-    python_requires='>=3.7',
+    # install_requires=[
+    #     'numpy',
+    #     'onnxruntime',
+    #     'onnx==1.8.1',
+    #     'requests',
+    #     'onnxoptimizer',
+    #     'onnx-simplifier',
+    #     'packaging'
+    # ],
+    python_requires='>=3.6',
 )
